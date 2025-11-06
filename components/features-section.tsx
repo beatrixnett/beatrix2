@@ -103,10 +103,10 @@ const DeviceConnectionDemo = ({ isActive }: { isActive: boolean }) => {
   }, [isActive])
 
   return (
-    <div className="bg-slate-50 rounded-lg p-4 h-32">
+    <div className="bg-slate-50 rounded-lg p-4 h-45">
       <div className="text-xs font-medium text-slate-700 mb-2">Connected Devices</div>
       <div className="space-y-1.5">
-        {["📺 TV", "💻 Laptop", "📱 Phone", "🎮 Gaming", "⌚ Device"].map((device, i) => (
+        {["📺 TV", "💻 Laptop", "📱 Phone", "🎮 Gaming", "📱 Tablet"].map((device, i) => (
           <div
             key={i}
             className={`flex items-center gap-2 text-xs transition-all duration-300 ${
