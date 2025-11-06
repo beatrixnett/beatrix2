@@ -4,7 +4,7 @@ A modern, responsive website for Beatrix Net showcasing internet services, AI cu
 
 ## 🚀 Live Website
 
-Visit the live website at: [https://beatrixnett.github.io/beatrix2/](https://beatrixnett.github.io/beatrix2/)
+Visit the live website at: [https://beatrixnet.com](https://beatrixnet.com)
 
 ## 🛠️ Technologies Used
 
