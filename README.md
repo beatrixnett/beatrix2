@@ -1,30 +1,88 @@
-# Cliste website navigation
+# Beatrix Net - Internet & Telecommunications Services
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+A modern, responsive website for Beatrix Net showcasing internet services, AI customer support, and dealership solutions.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/altralink4-2218s-projects/v0-cliste-website-navigation)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/ToTlEBK9JRq)
+## 🚀 Live Website
 
-## Overview
+Visit the live website at: [https://beatrixnett.github.io/beatrix2/](https://beatrixnett.github.io/beatrix2/)
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## 🛠️ Technologies Used
 
-## Deployment
+- **Next.js 14** - React framework for production
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS** - Utility-first CSS framework
+- **Radix UI** - Accessible component primitives
+- **Framer Motion** - Animation library
+- **GitHub Pages** - Static site hosting
 
-Your project is live at:
+## 📋 Features
 
-**[https://vercel.com/altralink4-2218s-projects/v0-cliste-website-navigation](https://vercel.com/altralink4-2218s-projects/v0-cliste-website-navigation)**
+- 🏠 **Home Page** - Hero section with services overview
+- 🌐 **Internet Services** - Comprehensive service packages
+- 🤖 **AI Support** - Intelligent customer service solutions
+- 🚗 **Dealership Solutions** - Specialized automotive industry support
+- 📱 **Responsive Design** - Mobile-first approach
+- ⚡ **Performance Optimized** - Fast loading and SEO friendly
 
-## Build your app
+## 🔧 Development
 
-Continue building your app on:
+### Prerequisites
+- Node.js 18+ 
+- npm or pnpm
 
-**[https://v0.app/chat/ToTlEBK9JRq](https://v0.app/chat/ToTlEBK9JRq)**
+### Installation
 
-## How It Works
+```bash
+npm install
+```
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+### Development Server
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+## 🚀 Deployment
+
+This website is automatically deployed to GitHub Pages whenever changes are pushed to the main branch using GitHub Actions.
+
+### Manual Deployment Setup
+
+1. Enable GitHub Pages in repository settings
+2. Set source to "GitHub Actions"
+3. The workflow in `.github/workflows/deploy.yml` handles the rest
+
+## 📂 Project Structure
+
+```
+├── app/                    # Next.js App Router pages
+├── components/             # Reusable React components
+├── lib/                    # Utility functions
+├── public/                 # Static assets
+├── styles/                 # Global styles
+└── .github/workflows/      # GitHub Actions workflows
+```
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Push to the branch
+5. Open a Pull Request
+
+## 📄 License
+
+This project is private and proprietary to Beatrix Net.
+
+---
+
+Built with ❤️ for Beatrix Net
