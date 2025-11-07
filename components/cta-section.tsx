@@ -47,11 +47,11 @@ export function CTASection() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <a
-              href="tel:1-833-319-0063"
-              className="group inline-flex items-center gap-3 px-8 py-4 md:px-12 md:py-6 bg-gradient-to-r from-white to-slate-100 text-slate-900 rounded-full font-semibold text-base md:text-lg hover:from-slate-50 hover:to-slate-200 transition-all duration-300 hover:scale-105 shadow-2xl"
+              href="tel:1-844-525-0789"
+              className="group bg-white hover:bg-gray-50 text-slate-900 font-semibold px-6 py-4 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg flex items-center gap-3"
             >
-              <Phone className="w-5 h-5 md:w-6 md:h-6" />
-              Call Now: 1-833-319-0063
+              <Phone className="w-5 h-5" />
+              Call Now: 1-844-525-0789
             </a>
           </div>
         </div>

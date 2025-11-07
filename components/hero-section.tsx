@@ -12,9 +12,9 @@ const ArrowRight = () => (
   </svg>
 )
 
-const Phone = () => (
+const Phone = ({ className }: { className?: string }) => (
   <svg
-    className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform"
+    className={className || "mr-2 h-5 w-5 group-hover:scale-110 transition-transform"}
     fill="none"
     stroke="currentColor"
     viewBox="0 0 24 24"
@@ -76,11 +76,11 @@ export function HeroSection() {
           </Button>
 
           <a
-            href="tel:1-833-319-0063"
-            className="inline-flex items-center justify-center rounded-full px-8 py-4 text-lg font-medium border border-white/30 text-white hover:bg-white/10 transition-all duration-200 hover:scale-105 group bg-transparent cursor-pointer"
+            href="tel:1-844-525-0789"
+            className="group bg-white hover:bg-gray-50 text-slate-900 font-semibold px-6 py-4 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg flex items-center gap-3"
           >
-            <Phone />
-            1-833-319-0063
+            <Phone className="w-5 h-5" />
+            1-844-525-0789
           </a>
         </div>
 

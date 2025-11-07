@@ -115,11 +115,11 @@ export function GlassmorphismNav() {
               {/* Desktop CTA Button */}
               <div className="hidden md:block">
                 <a
-                  href="tel:1-833-319-0063"
-                  className="relative bg-white hover:bg-gray-50 text-black font-medium px-6 py-2 rounded-full flex items-center transition-all duration-300 hover:scale-105 hover:shadow-lg cursor-pointer group"
+                  href="tel:1-844-525-0789"
+                  className="group flex items-center gap-3 px-4 py-3 rounded-xl bg-blue-500/20 border border-blue-400/30 text-blue-100 hover:bg-blue-500/30 hover:text-white transition-all duration-300"
                 >
-                  <Phone size={16} className="mr-2" />
-                  <span>1-833-319-0063</span>
+                  <Phone className="w-4 h-4" />
+                  <span>1-844-525-0789</span>
                 </a>
               </div>
 
@@ -182,7 +182,7 @@ export function GlassmorphismNav() {
                 ))}
                 <div className="h-px bg-white/10 my-2" />
                 <a
-                  href="tel:1-833-319-0063"
+                  href="tel:1-844-525-0789"
                   className={`relative bg-white hover:bg-gray-50 text-black font-medium px-6 py-3 rounded-full flex items-center transition-all duration-300 hover:scale-105 hover:shadow-lg cursor-pointer group transform ${
                     isOpen ? "animate-mobile-menu-item" : ""
                   }`}

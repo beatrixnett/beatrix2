@@ -60,10 +60,10 @@ export default function ContactPage() {
                     <h3 className="text-xl font-semibold text-white">Phone</h3>
                   </div>
                   <a
-                    href="tel:1-833-319-0063"
+                    href="tel:1-844-525-0789"
                     className="text-white/70 hover:text-white transition-colors text-lg font-semibold"
                   >
-                    1-833-319-0063
+                    1-844-525-0789
                   </a>
                   <p className="text-white/50 text-sm mt-2">Available 24/7</p>
                 </div>

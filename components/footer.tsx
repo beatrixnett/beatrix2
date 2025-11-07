@@ -45,11 +45,11 @@ export function Footer() {
           <div className="text-muted-foreground mt-8 text-sm md:mt-0 md:block hidden">
             <p>© {new Date().getFullYear()} Beatrix Net. All rights reserved.</p>
             <a
-              href="tel:1-833-319-0063"
+              href="tel:1-844-525-0789"
               className="flex items-center gap-2 text-white hover:text-blue-400 transition-colors mt-4 font-semibold"
             >
               <Phone size={18} />
-              1-833-319-0063
+              1-844-525-0789
             </a>
           </div>
         </AnimatedContainer>
@@ -80,11 +80,11 @@ export function Footer() {
       <div className="md:hidden mt-8 text-center space-y-2">
         <p className="text-muted-foreground text-sm">© {new Date().getFullYear()} Beatrix Net. All rights reserved.</p>
         <a
-          href="tel:1-833-319-0063"
+          href="tel:1-844-525-0789"
           className="flex items-center gap-2 justify-center text-white hover:text-blue-400 transition-colors font-semibold"
         >
           <Phone size={18} />
-          1-833-319-0063
+          1-844-525-0789
         </a>
       </div>
 
