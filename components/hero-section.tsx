@@ -12,9 +12,9 @@ const ArrowRight = () => (
   </svg>
 )
 
-const Phone = ({ className }: { className?: string }) => (
+const Phone = () => (
   <svg
-    className={className || "mr-2 h-5 w-5 group-hover:scale-110 transition-transform"}
+    className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform"
     fill="none"
     stroke="currentColor"
     viewBox="0 0 24 24"
