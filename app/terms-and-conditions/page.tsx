@@ -99,7 +99,7 @@ export default function TermsAndConditionsPage() {
               <p className="text-white/70 text-lg leading-relaxed">For questions about these Terms and Conditions:</p>
               <div className="mt-4 p-4 rounded-lg bg-white/5 border border-white/10">
                 <p className="text-white">Beatrix Net Customer Support</p>
-                <p className="text-white/70">Phone: 1-844-525-0789</p>
+                <p className="text-white/70">Phone: (844) 525-0789</p>
                 <p className="text-white/70">Email: support@beatrixnet.com</p>
               </div>
             </div>

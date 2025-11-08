@@ -62,7 +62,7 @@ export default function PricingPage() {
               <p className="text-xl text-white/70 max-w-2xl mx-auto mb-8">
                 No hidden fees. No contracts. No surprises. Choose the perfect plan for you.
               </p>
-              <p className="text-lg text-blue-400 font-semibold">Need help? Call us at 1-844-525-0789</p>
+              <p className="text-lg text-blue-400 font-semibold">Need help? Call us at (844) 525-0789</p>
             </div>
           </section>
 
@@ -91,7 +91,7 @@ export default function PricingPage() {
                   </div>
                   <p className="text-white/70 mb-6">{plan.description}</p>
                   <button
-                    onClick={() => (window.location.href = "tel:1-844-525-0789")}
+                    onClick={() => (window.location.href = "tel:+18445250789")}
                     className="w-full py-3 rounded-full bg-white text-black font-semibold hover:bg-gray-100 transition-all duration-300 mb-8"
                   >
                     Get Started

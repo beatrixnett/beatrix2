@@ -27,7 +27,7 @@ export default function RefundPolicyPage() {
               <p className="text-white/70 text-lg leading-relaxed">
                 We offer a 30-day money-back guarantee on all our internet service plans. If you're not satisfied with
                 Beatrix Net's service quality or coverage during your first month, you can request a full refund of your
-                service fees. Simply contact us at 1-844-525-0789 or email support@beatrixnet.com.
+                service fees. Simply contact us at (844) 525-0789 or email support@beatrixnet.com.
               </p>
             </div>
 
@@ -81,7 +81,7 @@ export default function RefundPolicyPage() {
               </p>
               <div className="mt-4 p-4 rounded-lg bg-white/5 border border-white/10">
                 <p className="text-white">Beatrix Net Customer Support</p>
-                <p className="text-white/70">Phone: 1-844-525-0789</p>
+                <p className="text-white/70">Phone: (844) 525-0789</p>
                 <p className="text-white/70">Email: support@beatrixnet.com</p>
               </div>
             </div>
