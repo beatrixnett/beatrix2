@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button"
-import RotatingText from "./RotatingText"
 
 const ArrowRight = () => (
   <svg
@@ -12,9 +11,9 @@ const ArrowRight = () => (
   </svg>
 )
 
-const Phone = () => (
+const Phone = ({ className = "mr-2 h-5 w-5 group-hover:scale-110 transition-transform" }: { className?: string }) => (
   <svg
-    className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform"
+    className={className}
     fill="none"
     stroke="currentColor"
     viewBox="0 0 24 24"
@@ -44,18 +43,9 @@ export function HeroSection() {
           <br />
           <span className="inline-flex items-center justify-center flex-wrap gap-2 mt-4 sm:mt-6 md:mt-8">
             <span className="text-foreground">Internet for</span>
-            <RotatingText
-              texts={["Everyone", "Families", "Businesses", "Gamers", "Streamers"]}
-              mainClassName="px-2 sm:px-2 md:px-3 bg-white text-black overflow-hidden py-1 sm:py-1 md:py-2 justify-center rounded-lg shadow-lg"
-              staggerFrom={"last"}
-              initial={{ y: "100%" }}
-              animate={{ y: 0 }}
-              exit={{ y: "-120%" }}
-              staggerDuration={0.025}
-              splitLevelClassName="overflow-hidden pb-1 sm:pb-1 md:pb-1"
-              transition={{ type: "spring", damping: 30, stiffness: 400 }}
-              rotationInterval={2000}
-            />
+            <span className="px-2 sm:px-2 md:px-3 bg-white text-black overflow-hidden py-1 sm:py-1 md:py-2 justify-center rounded-lg shadow-lg">
+              Everyone
+            </span>
           </span>
         </h1>
 
