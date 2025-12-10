@@ -23,7 +23,7 @@ export default function ServicesPage() {
     {
       icon: Headphones,
       title: "24/7 Customer Support",
-      description: "Dedicated support team ready to help you anytime. Call (844) 525-0789",
+      description: "Dedicated support team ready to help you anytime. Call (833) 619-0239",
     },
     {
       icon: Clock,

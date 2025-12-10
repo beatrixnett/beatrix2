@@ -61,7 +61,7 @@ export default function AboutPage() {
                 <div className="p-6 rounded-xl bg-white/10 border border-white/20">
                   <h3 className="text-xl font-semibold text-white mb-3">Award-Winning Support</h3>
                   <p className="text-white/70">
-                    Our dedicated 24/7 customer support team is always ready to help. Call (844) 525-0789 anytime.
+                    Our dedicated 24/7 customer support team is always ready to help. Call (833) 619-0239 anytime.
                   </p>
                 </div>
               </div>

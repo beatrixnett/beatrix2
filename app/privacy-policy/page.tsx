@@ -81,7 +81,7 @@ export default function PrivacyPolicyPage() {
               </p>
               <div className="mt-4 p-4 rounded-lg bg-white/5 border border-white/10">
                 <p className="text-white">Beatrix Net Customer Support</p>
-                <p className="text-white/70">Phone: (844) 525-0789</p>
+                <p className="text-white/70">Phone: (833) 619-0239</p>
                 <p className="text-white/70">Email: support@beatrixnet.com</p>
               </div>
             </div>

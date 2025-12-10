@@ -154,8 +154,8 @@ export function CableBundlesSection() {
         <div className="mt-12 sm:mt-16 text-center">
           <p className="text-white/70 text-base sm:text-lg mb-4">
             Need help choosing? Call us at{" "}
-            <a href="tel:+18445250789" className="text-blue-400 hover:text-blue-300 font-semibold">
-              (844) 525-0789
+            <a href="tel:+18336190239" className="text-blue-400 hover:text-blue-300 font-semibold">
+              (833) 619-0239
             </a>
           </p>
         </div>
