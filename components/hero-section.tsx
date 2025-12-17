@@ -34,25 +34,24 @@ export function HeroSection() {
         {/* Badge */}
         <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white text-sm font-medium mb-8 mt-12 animate-fade-in-badge">
           <span className="w-2 h-2 bg-white/60 rounded-full mr-2 animate-pulse"></span>
-          Unlimited High-Speed Internet
+          Independent Connectivity Advisors Since 2025
         </div>
 
         {/* Main Heading */}
         <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-balance mb-6 animate-fade-in-heading">
-          <span className="text-foreground">Lightning-Fast</span>
+          <span className="text-foreground">Your Trusted Guide to</span>
           <br />
           <span className="inline-flex items-center justify-center flex-wrap gap-2 mt-4 sm:mt-6 md:mt-8">
-            <span className="text-foreground">Internet for</span>
+            <span className="text-foreground">Better</span>
             <span className="px-2 sm:px-2 md:px-3 bg-white text-black overflow-hidden py-1 sm:py-1 md:py-2 justify-center rounded-lg shadow-lg">
-              Everyone
+              Connectivity
             </span>
           </span>
         </h1>
 
         {/* Subheading */}
         <p className="text-base sm:text-xl md:text-2xl text-white text-balance max-w-sm sm:max-w-3xl mx-auto mb-8 sm:mb-12 leading-relaxed px-4 sm:px-0 animate-fade-in-subheading font-light">
-          Beatrix Net delivers ultra-fast cable internet with 99.9% uptime guarantee. No contracts, no hidden fees, no
-          limits.
+          Expert assistance for choosing and managing your internet, cable, and streaming services. We cut through the confusion so you can connect with confidence.
         </p>
 
         {/* CTA Buttons */}
@@ -61,7 +60,7 @@ export function HeroSection() {
             size="lg"
             className="bg-white text-black rounded-full px-8 py-4 text-lg font-medium transition-all duration-300 hover:bg-gray-50 hover:scale-105 hover:shadow-lg group cursor-pointer relative overflow-hidden"
           >
-            Get Connected Now
+            Request Assistance
             <ArrowRight />
           </Button>
 
@@ -76,25 +75,25 @@ export function HeroSection() {
 
         {/* Trust Indicators */}
         <div className="text-center px-4 hidden sm:block overflow-hidden animate-fade-in-trust">
-          <p className="text-sm text-white mb-6">Trusted by thousands of customers</p>
+          <p className="text-sm text-white mb-6">Trusted assistance from independent advisors</p>
           <div className="relative overflow-hidden w-full max-w-4xl mx-auto">
             <div className="flex items-center gap-8 opacity-60 hover:opacity-80 transition-all duration-500 animate-slide-left">
               <div className="flex items-center gap-8 whitespace-nowrap">
-                <div className="text-base sm:text-lg font-semibold">5 Star Rating</div>
+                <div className="text-base sm:text-lg font-semibold">Expert Guidance</div>
                 <div className="text-base sm:text-lg font-semibold">24/7 Support</div>
-                <div className="text-base sm:text-lg font-semibold">No Contracts</div>
-                <div className="text-base sm:text-lg font-semibold">99.9% Uptime</div>
-                <div className="text-base sm:text-lg font-semibold">Free Setup</div>
-                <div className="text-base sm:text-lg font-semibold">Unlimited Data</div>
+                <div className="text-base sm:text-lg font-semibold">Independent Service</div>
+                <div className="text-base sm:text-lg font-semibold">Clear Pricing</div>
+                <div className="text-base sm:text-lg font-semibold">Honest Advice</div>
+                <div className="text-base sm:text-lg font-semibold">Customer First</div>
               </div>
               {/* Duplicate for seamless loop */}
               <div className="flex items-center gap-8 whitespace-nowrap">
-                <div className="text-base sm:text-lg font-semibold">5 Star Rating</div>
+                <div className="text-base sm:text-lg font-semibold">Expert Guidance</div>
                 <div className="text-base sm:text-lg font-semibold">24/7 Support</div>
-                <div className="text-base sm:text-lg font-semibold">No Contracts</div>
-                <div className="text-base sm:text-lg font-semibold">99.9% Uptime</div>
-                <div className="text-base sm:text-lg font-semibold">Free Setup</div>
-                <div className="text-base sm:text-lg font-semibold">Unlimited Data</div>
+                <div className="text-base sm:text-lg font-semibold">Independent Service</div>
+                <div className="text-base sm:text-lg font-semibold">Clear Pricing</div>
+                <div className="text-base sm:text-lg font-semibold">Honest Advice</div>
+                <div className="text-base sm:text-lg font-semibold">Customer First</div>
               </div>
             </div>
           </div>
@@ -110,18 +109,18 @@ export function HeroSection() {
             <div className="absolute right-0 top-0 w-8 h-full bg-gradient-to-l from-black to-transparent z-10 pointer-events-none"></div>
             <div className="flex items-center gap-6 opacity-60 animate-slide-left-mobile">
               <div className="flex items-center gap-6 whitespace-nowrap">
-                <div className="text-sm font-semibold">Fast</div>
-                <div className="text-sm font-semibold">Reliable</div>
-                <div className="text-sm font-semibold">Affordable</div>
-                <div className="text-sm font-semibold">Secure</div>
+                <div className="text-sm font-semibold">Independent</div>
+                <div className="text-sm font-semibold">Helpful</div>
+                <div className="text-sm font-semibold">Transparent</div>
+                <div className="text-sm font-semibold">Expert</div>
                 <div className="text-sm font-semibold">Support</div>
               </div>
               {/* Duplicate for seamless loop */}
               <div className="flex items-center gap-6 whitespace-nowrap">
-                <div className="text-sm font-semibold">Fast</div>
-                <div className="text-sm font-semibold">Reliable</div>
-                <div className="text-sm font-semibold">Affordable</div>
-                <div className="text-sm font-semibold">Secure</div>
+                <div className="text-sm font-semibold">Independent</div>
+                <div className="text-sm font-semibold">Helpful</div>
+                <div className="text-sm font-semibold">Transparent</div>
+                <div className="text-sm font-semibold">Expert</div>
                 <div className="text-sm font-semibold">Support</div>
               </div>
             </div>

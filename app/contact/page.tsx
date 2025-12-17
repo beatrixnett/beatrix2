@@ -44,7 +44,7 @@ export default function ContactPage() {
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">Get in Touch</h1>
               <p className="text-xl text-white/70 max-w-2xl mx-auto">
-                Have questions? We'd love to hear from you. Contact Beatrix Net today!
+                Have questions about our assistance services? We're here to help you navigate your connectivity options!
               </p>
             </div>
           </section>
@@ -65,7 +65,21 @@ export default function ContactPage() {
                   >
                     (833) 619-0239
                   </a>
-                  <p className="text-white/50 text-sm mt-2">Available 24/7</p>
+                  <p className="text-white/50 text-sm mt-2">Available 24/7 for assistance</p>
+                </div>
+
+                <div className="p-6 rounded-xl bg-white/10 border border-white/20">
+                  <div className="flex items-center gap-4 mb-4">
+                    <Phone className="w-8 h-8 text-blue-400" />
+                    <h3 className="text-xl font-semibold text-white">Alternative Phone</h3>
+                  </div>
+                  <a
+                    href="tel:+18445250789"
+                    className="text-white/70 hover:text-white transition-colors text-lg font-semibold"
+                  >
+                    (844) 525-0789
+                  </a>
+                  <p className="text-white/50 text-sm mt-2">Support line available 24/7</p>
                 </div>
 
                 <div className="p-6 rounded-xl bg-white/10 border border-white/20">
@@ -79,21 +93,7 @@ export default function ContactPage() {
                   >
                     support@beatrixnet.com
                   </a>
-                  <p className="text-white/50 text-sm mt-2">We respond within 2 hours</p>
-                </div>
-
-                <div className="p-6 rounded-xl bg-white/10 border border-white/20">
-                  <div className="flex items-center gap-4 mb-4">
-                    <MapPin className="w-8 h-8 text-blue-400" />
-                    <h3 className="text-xl font-semibold text-white">Address</h3>
-                  </div>
-                  <p className="text-white/70">
-                    Beatrix Net Customer Service
-                    <br />
-                    123 Internet Avenue
-                    <br />
-                    Silicon Valley, CA 94025
-                  </p>
+                  <p className="text-white/50 text-sm mt-2">We respond within 24 hours</p>
                 </div>
               </div>
 
@@ -144,17 +144,28 @@ export default function ContactPage() {
                       required
                       rows={4}
                       className="w-full px-4 py-2 rounded-lg bg-white/5 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:border-white/40 transition-colors resize-none"
-                      placeholder="Tell us how we can help..."
+                      placeholder="Tell us how we can help with your connectivity needs..."
                     />
                   </div>
                   <button
                     type="submit"
                     className="w-full py-3 rounded-lg bg-white text-black font-semibold hover:bg-gray-100 transition-all duration-300"
                   >
-                    Send Message
+                    Request Assistance
                   </button>
+                  <p className="text-white/50 text-xs text-center mt-2">
+                    We respect your privacy. By submitting, you agree to our Privacy Policy.
+                  </p>
                 </form>
               </div>
+            </div>
+
+            {/* Important Notice */}
+            <div className="mt-12 p-6 rounded-lg bg-blue-500/10 border border-blue-400/30">
+              <h3 className="text-lg font-bold text-white mb-3">Important Information</h3>
+              <p className="text-white/70 text-sm leading-relaxed">
+                Thank you for calling Beatrix Net, an independent service assistance platform. We provide guidance and support for internet, cable, and streaming services. We are not affiliated with any service providers. Our phone representatives will clearly identify themselves as Beatrix Net advisors and explain our independent assistance services.
+              </p>
             </div>
           </section>
 

@@ -14,88 +14,110 @@ export default function TermsAndConditionsPage() {
 
           {/* Hero */}
           <section className="min-h-screen flex items-center justify-center px-4 py-20">
-            <div className="max-w-4xl mx-auto">
+            <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">Terms and Conditions</h1>
-              <p className="text-white/70">Last updated: November 2024</p>
+              <p className="text-white/70">Last updated: December 2025</p>
             </div>
           </section>
 
           {/* Content */}
           <section className="max-w-4xl mx-auto px-4 py-20 space-y-8 pb-20">
             <div>
-              <h2 className="text-3xl font-bold text-white mb-4">1. Service Agreement</h2>
+              <h2 className="text-3xl font-bold text-white mb-4">1. Independent Service Agreement</h2>
+              <p className="text-white/70 text-lg leading-relaxed mb-4">
+                By engaging with Beatrix Net services, you acknowledge and agree to these Terms and Conditions. These terms govern your use of our independent third-party assistance services.
+              </p>
+              <p className="text-white/70 text-lg leading-relaxed mb-4">
+                <strong>Critical Understanding:</strong> Beatrix Net is NOT an Internet Service Provider (ISP), cable company, or streaming service. We are an independent assistance platform that provides guidance, support, and educational services to help you navigate internet, cable, and streaming service options.
+              </p>
               <p className="text-white/70 text-lg leading-relaxed">
-                By subscribing to Beatrix Net services, you agree to these Terms and Conditions. These terms govern your
-                use of our cable internet services and any related services provided by Beatrix Net.
+                We are not affiliated with, endorsed by, or sponsored by any internet, cable, or streaming service provider. All provider names and trademarks are the property of their respective owners and are referenced for informational purposes only.
               </p>
             </div>
 
             <div>
-              <h2 className="text-3xl font-bold text-white mb-4">2. Service Availability</h2>
+              <h2 className="text-3xl font-bold text-white mb-4">2. Nature of Services</h2>
               <p className="text-white/70 text-lg leading-relaxed mb-4">
-                Beatrix Net services are available only in areas where we provide coverage. Service availability is
-                subject to:
+                Beatrix Net provides assistance services including, but not limited to:
               </p>
               <ul className="list-disc list-inside text-white/70 space-y-2 ml-4">
-                <li>Technical feasibility and line availability</li>
-                <li>Compliance with local regulations</li>
-                <li>Credit approval</li>
-                <li>Successful installation</li>
+                <li>Educational guidance on internet, cable, and streaming service options</li>
+                <li>Comparison information about different providers and plans</li>
+                <li>Technical setup support and troubleshooting assistance</li>
+                <li>Customer support for connectivity-related questions</li>
+                <li>Help navigating the sign-up and activation process</li>
+              </ul>
+              <p className="text-white/70 text-lg leading-relaxed mt-4">
+                Our services do NOT include selling or providing internet, cable, or streaming plans. All service plans are purchased directly from the respective providers.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-3xl font-bold text-white mb-4">3. Service Fees and Billing</h2>
+              <p className="text-white/70 text-lg leading-relaxed mb-4">
+                Beatrix Net charges a separate service fee for our assistance and guidance services. This fee is independent and separate from any charges you incur from internet, cable, or streaming service providers.
+              </p>
+              <ul className="list-disc list-inside text-white/70 space-y-2 ml-4">
+                <li>Our service fees are disclosed transparently before you engage our services</li>
+                <li>Provider billing remains unchanged and is handled directly by the provider</li>
+                <li>You will receive separate bills: one from Beatrix Net for assistance services, and one from your chosen provider for their service plans</li>
+                <li>Payment is required according to the fee schedule presented at time of service</li>
               </ul>
             </div>
 
             <div>
-              <h2 className="text-3xl font-bold text-white mb-4">3. Payment Terms</h2>
+              <h2 className="text-3xl font-bold text-white mb-4">4. No Provider Affiliation</h2>
               <p className="text-white/70 text-lg leading-relaxed mb-4">
-                Customers agree to pay charges for services according to the rate plan selected. Billing occurs monthly
-                in advance. Payment is due on the date specified in your billing statement.
-              </p>
-            </div>
-
-            <div>
-              <h2 className="text-3xl font-bold text-white mb-4">4. Service Modifications</h2>
-              <p className="text-white/70 text-lg leading-relaxed">
-                Beatrix Net reserves the right to modify or discontinue services with 30 days' notice. We also reserve
-                the right to modify these terms at any time. Continued use of services constitutes acceptance of
-                modified terms.
-              </p>
-            </div>
-
-            <div>
-              <h2 className="text-3xl font-bold text-white mb-4">5. Equipment</h2>
-              <p className="text-white/70 text-lg leading-relaxed mb-4">
-                All equipment provided by Beatrix Net remains our property. You agree to:
+                Beatrix Net maintains complete independence from all service providers. We:
               </p>
               <ul className="list-disc list-inside text-white/70 space-y-2 ml-4">
-                <li>Use equipment only for authorized purposes</li>
-                <li>Return equipment upon service cancellation</li>
-                <li>Pay replacement costs for lost or damaged equipment</li>
-                <li>Not modify or repair equipment</li>
+                <li>Are not authorized representatives or agents of any provider</li>
+                <li>Do not have special partnerships or endorsement arrangements</li>
+                <li>Reference provider names solely for educational and descriptive purposes</li>
+                <li>Cannot make decisions or modifications to your provider accounts</li>
+                <li>Provide objective guidance without bias toward any specific provider</li>
               </ul>
             </div>
 
             <div>
-              <h2 className="text-3xl font-bold text-white mb-4">6. Acceptable Use</h2>
-              <p className="text-white/70 text-lg leading-relaxed mb-4">You agree not to use our services for:</p>
-              <ul className="list-disc list-inside text-white/70 space-y-2 ml-4">
-                <li>Illegal activities or content</li>
-                <li>Harassment, threats, or abusive behavior</li>
-                <li>Unauthorized network access or hacking</li>
-                <li>Distribution of viruses or malware</li>
-                <li>Excessive bandwidth usage affecting other customers</li>
-              </ul>
-            </div>
-
-            <div>
-              <h2 className="text-3xl font-bold text-white mb-4">7. Limitation of Liability</h2>
+              <h2 className="text-3xl font-bold text-white mb-4">5. Information Security</h2>
+              <p className="text-white/70 text-lg leading-relaxed mb-4">
+                We never request or require your provider account passwords, login credentials, or other sensitive account access information. Our guidance is educational and does not require access to your provider accounts.
+              </p>
               <p className="text-white/70 text-lg leading-relaxed">
-                Beatrix Net shall not be liable for any indirect, incidental, special, or consequential damages
-                resulting from service interruption, data loss, or other issues related to our services.
+                We collect only the information necessary to provide our assistance services and maintain the security of your data in accordance with our Privacy Policy.
               </p>
             </div>
 
             <div>
-              <h2 className="text-3xl font-bold text-white mb-4">8. Contact Us</h2>
+              <h2 className="text-3xl font-bold text-white mb-4">6. Refund Policy</h2>
+              <p className="text-white/70 text-lg leading-relaxed">
+                Refund requests can be submitted within 7 to 15 days of service purchase, depending on the type of assistance provided and whether services have already been delivered. Please review our dedicated Refund Policy page for complete eligibility details and terms.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-3xl font-bold text-white mb-4">7. Service Modifications</h2>
+              <p className="text-white/70 text-lg leading-relaxed">
+                Beatrix Net reserves the right to modify, update, or discontinue our assistance services with reasonable notice. We may update these Terms and Conditions periodically. Continued use of our services after changes constitutes acceptance of the modified terms.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-3xl font-bold text-white mb-4">8. Limitation of Liability</h2>
+              <p className="text-white/70 text-lg leading-relaxed mb-4">
+                As an independent assistance platform, Beatrix Net provides guidance and support services but cannot guarantee specific outcomes related to provider services, availability, or performance. We are not liable for:
+              </p>
+              <ul className="list-disc list-inside text-white/70 space-y-2 ml-4">
+                <li>Actions, decisions, or policies of internet, cable, or streaming providers</li>
+                <li>Service interruptions, outages, or technical issues from providers</li>
+                <li>Changes in provider pricing, terms, or service availability</li>
+                <li>Provider billing disputes or account management issues</li>
+              </ul>
+            </div>
+
+            <div>
+              <h2 className="text-3xl font-bold text-white mb-4">9. Contact Information</h2>
               <p className="text-white/70 text-lg leading-relaxed">For questions about these Terms and Conditions:</p>
               <div className="mt-4 p-4 rounded-lg bg-white/5 border border-white/10">
                 <p className="text-white">Beatrix Net Customer Support</p>

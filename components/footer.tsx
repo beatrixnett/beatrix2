@@ -17,9 +17,9 @@ const footerLinks: FooterSection[] = [
   {
     label: "Services",
     links: [
-      { title: "High-Speed Internet", href: "/services" },
-      { title: "Plans & Pricing", href: "/pricing" },
-      { title: "Installation & Support", href: "/services" },
+      { title: "Assistance Services", href: "/services" },
+      { title: "How It Works", href: "/about" },
+      { title: "FAQ", href: "/faq" },
     ],
   },
   {
@@ -27,6 +27,12 @@ const footerLinks: FooterSection[] = [
     links: [
       { title: "About Us", href: "/about" },
       { title: "Contact Us", href: "/contact" },
+      { title: "Disclaimer", href: "/disclaimer" },
+    ],
+  },
+  {
+    label: "Legal",
+    links: [
       { title: "Privacy Policy", href: "/privacy-policy" },
       { title: "Refund Policy", href: "/refund-policy" },
       { title: "Terms & Conditions", href: "/terms-and-conditions" },
@@ -42,6 +48,9 @@ export function Footer() {
       <div className="grid w-full gap-8 xl:grid-cols-3 xl:gap-8">
         <AnimatedContainer className="space-y-4">
           <div className="text-2xl font-bold text-white">Beatrix Net</div>
+          <p className="text-sm text-white/60 max-w-xs">
+            Independent third-party assistance for your internet, cable, and streaming needs. Launched 2025.
+          </p>
           <div className="text-muted-foreground mt-8 text-sm md:mt-0 md:block hidden">
             <p>© {new Date().getFullYear()} Beatrix Net. All rights reserved.</p>
             <div className="mt-4 space-y-2">
@@ -63,7 +72,7 @@ export function Footer() {
           </div>
         </AnimatedContainer>
 
-        <div className="mt-10 grid grid-cols-2 gap-8 md:grid-cols-2 xl:col-span-2 xl:mt-0">
+        <div className="mt-10 grid grid-cols-2 gap-8 md:grid-cols-3 xl:col-span-2 xl:mt-0">
           {footerLinks.map((section, index) => (
             <AnimatedContainer key={section.label} delay={0.1 + index * 0.1}>
               <div className="mb-10 md:mb-0">
@@ -86,7 +95,12 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="md:hidden mt-8 text-center space-y-2">
+      <div className="md:hidden mt-8 text-center space-y-4">
+        <div className="space-y-3 px-4">
+          <p className="text-muted-foreground text-xs leading-relaxed">
+            <strong>Important:</strong> Beatrix Net is an independent third-party service assistance startup. We are not affiliated with any internet, cable, or streaming provider. All trademarks belong to their respective owners.
+          </p>
+        </div>
         <p className="text-muted-foreground text-sm">© {new Date().getFullYear()} Beatrix Net. All rights reserved.</p>
         <a
           href="tel:+18336190239"
@@ -105,9 +119,14 @@ export function Footer() {
       </div>
 
       <div className="hidden md:block mt-8 pt-6 border-t border-foreground/10 w-full">
-        <p className="text-muted-foreground text-xs text-center">
-          Fast. Reliable. Affordable. Beatrix Net Internet Service.
-        </p>
+        <div className="space-y-3">
+          <p className="text-muted-foreground text-xs text-center leading-relaxed px-4">
+            <strong>Important Disclosure:</strong> Beatrix Net is an independent third-party service assistance startup. We are not affiliated with, endorsed by, or sponsored by any internet, cable, or streaming service provider. All trademarks belong to their respective owners.
+          </p>
+          <p className="text-muted-foreground text-xs text-center">
+            Expert guidance for your connectivity needs.
+          </p>
+        </div>
       </div>
     </footer>
   )
