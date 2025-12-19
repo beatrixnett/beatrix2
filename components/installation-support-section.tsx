@@ -60,7 +60,7 @@ export function InstallationSupportSection() {
                 <span className="text-white font-semibold">Call Us Anytime</span>
               </div>
               <p className="text-white/80 mb-4">Our friendly support team is always ready to help</p>
-              <p className="text-2xl font-bold text-blue-400">(833) 619-0239</p>
+              <p className="text-2xl font-bold text-blue-400">(833) 319-0063</p>
             </div>
 
             <div className="grid grid-cols-2 gap-4">

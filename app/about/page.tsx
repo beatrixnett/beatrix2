@@ -65,7 +65,7 @@ export default function AboutPage() {
                 <div className="p-6 rounded-xl bg-white/10 border border-white/20">
                   <h3 className="text-xl font-semibold text-white mb-3">24/7 Support</h3>
                   <p className="text-white/70">
-                    Questions don't keep business hours. Our support team is available around the clock at (833) 619-0239 and (844) 525-0789.
+                    Questions don't keep business hours. Our support team is available around the clock at (833) 319-0063.
                   </p>
                 </div>
               </div>

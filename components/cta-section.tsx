@@ -46,18 +46,18 @@ export function CTASection() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <a
-              href="tel:+18336190239"
+              href="tel:+18333190063"
               className="group bg-white hover:bg-gray-50 text-slate-900 font-semibold px-6 py-4 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg flex items-center gap-3"
             >
               <Phone className="w-5 h-5" />
-              Get Assistance: (833) 619-0239
+              Get Assistance: (833) 319-0063
             </a>
             <a
-              href="tel:+18445250789"
+              href="tel:+18333190063"
               className="group bg-white/20 hover:bg-white/30 text-white font-semibold px-6 py-4 rounded-xl transition-all duration-300 hover:scale-105 border border-white/30 flex items-center gap-3"
             >
               <Phone className="w-5 h-5" />
-              Call Support: (844) 525-0789
+              Call Support: (833) 319-0063
             </a>
           </div>
         </div>

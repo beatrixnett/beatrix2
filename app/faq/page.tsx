@@ -84,7 +84,7 @@ export default function FAQPage() {
             <div className="p-6 rounded-lg bg-white/5 border border-white/10">
               <h2 className="text-2xl font-bold text-white mb-3">How do I contact your support team?</h2>
               <p className="text-white/70 text-lg leading-relaxed">
-                You can reach our support team by calling (833) 619-0239 or (844) 525-0789. Our advisors are available to assist you with questions about our services, guidance on provider options, or any issues related to your assistance experience with Beatrix Net.
+                You can reach our support team by calling (833) 319-0063. Our advisors are available to assist you with questions about our services, guidance on provider options, or any issues related to your assistance experience with Beatrix Net.
               </p>
             </div>
 

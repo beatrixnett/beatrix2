@@ -74,7 +74,7 @@ export default function RefundPolicyPage() {
                 To request a refund of Beatrix Net assistance fees:
               </p>
               <ul className="list-disc list-inside text-white/70 space-y-2 ml-4">
-                <li>Contact our support team at (833) 619-0239 or (844) 525-0789</li>
+                <li>Contact our support team at (833) 319-0063</li>
                 <li>Provide your account information and reason for the refund request</li>
                 <li>Our team will review your request within 3-5 business days</li>
                 <li>If approved, refunds will be processed within 7-10 business days</li>
@@ -111,7 +111,7 @@ export default function RefundPolicyPage() {
               </p>
               <div className="mt-4 p-4 rounded-lg bg-white/5 border border-white/10">
                 <p className="text-white">Beatrix Net Customer Support</p>
-                <p className="text-white/70">Phone: (833) 619-0239</p>
+                <p className="text-white/70">Phone: (833) 319-0063</p>
                 <p className="text-white/70">Email: support@beatrixnet.com</p>
               </div>
             </div>

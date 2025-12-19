@@ -55,6 +55,13 @@ export function Footer() {
             <p>© {new Date().getFullYear()} Beatrix Net. All rights reserved.</p>
             <div className="mt-4 space-y-2">
               <a
+                href="tel:+18333190063"
+                className="flex items-center gap-2 text-white hover:text-blue-400 transition-colors font-semibold"
+              >
+                <Phone size={18} />
+                (833) 319-0063
+              </a>
+              <a
                 href="tel:+18336190239"
                 className="flex items-center gap-2 text-white hover:text-blue-400 transition-colors font-semibold"
               >
@@ -102,6 +109,13 @@ export function Footer() {
           </p>
         </div>
         <p className="text-muted-foreground text-sm">© {new Date().getFullYear()} Beatrix Net. All rights reserved.</p>
+        <a
+          href="tel:+18333190063"
+          className="flex items-center gap-2 justify-center text-white hover:text-blue-400 transition-colors font-semibold"
+        >
+          <Phone size={18} />
+          (833) 319-0063
+        </a>
         <a
           href="tel:+18336190239"
           className="flex items-center gap-2 justify-center text-white hover:text-blue-400 transition-colors font-semibold"

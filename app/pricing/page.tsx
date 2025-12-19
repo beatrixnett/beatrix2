@@ -62,7 +62,7 @@ export default function PricingPage() {
               <p className="text-xl text-white/70 max-w-2xl mx-auto mb-8">
                 No hidden fees. No contracts. No surprises. Choose the perfect plan for you.
               </p>
-              <p className="text-lg text-blue-400 font-semibold">Need help? Call us at (833) 619-0239</p>
+              <p className="text-lg text-blue-400 font-semibold">Need help? Call us at (833) 319-0063</p>
             </div>
           </section>
 

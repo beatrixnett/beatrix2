@@ -161,16 +161,16 @@ export default function DisclaimerPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="tel:+18336190239"
+                  href="tel:+18333190063"
                   className="inline-flex items-center justify-center px-6 py-3 bg-white text-black rounded-lg font-semibold hover:bg-gray-100 transition-colors"
                 >
-                  Call (833) 619-0239
+                  Call (833) 319-0063
                 </a>
                 <a
-                  href="tel:+18445250789"
+                  href="tel:+18333190063"
                   className="inline-flex items-center justify-center px-6 py-3 bg-white/20 text-white rounded-lg font-semibold hover:bg-white/30 transition-colors border border-white/30"
                 >
-                  Call (844) 525-0789
+                  Call (833) 319-0063
                 </a>
               </div>
             </div>
