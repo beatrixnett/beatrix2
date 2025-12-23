@@ -94,7 +94,7 @@ export default function PricingPage() {
                     onClick={() => (window.location.href = "tel:+18336190239")}
                     className="w-full py-3 rounded-full bg-white text-black font-semibold hover:bg-gray-100 transition-all duration-300 mb-8"
                   >
-                    Get Started
+                    Call Now
                   </button>
                   <div className="space-y-3">
                     {plan.features.map((feature, featureIndex) => (

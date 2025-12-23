@@ -58,10 +58,13 @@ export function HeroSection() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8 sm:mb-16 animate-fade-in-buttons">
           <Button
             size="lg"
+            asChild
             className="bg-white text-black rounded-full px-8 py-4 text-lg font-medium transition-all duration-300 hover:bg-gray-50 hover:scale-105 hover:shadow-lg group cursor-pointer relative overflow-hidden"
           >
-            Request Assistance
-            <ArrowRight />
+            <a href="tel:+18336190239">
+              Call Now
+              <ArrowRight />
+            </a>
           </Button>
 
           <a

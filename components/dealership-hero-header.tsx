@@ -108,17 +108,21 @@ export function DealershipHeroHeader() {
       <div className="max-w-xs sm:max-w-3xl mx-auto px-6 sm:px-0 flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-buttons">
         <Button
           size="lg"
+          asChild
           className="bg-white text-black rounded-full px-8 py-4 text-lg font-medium transition-all duration-300 hover:bg-gray-50 hover:scale-105 hover:shadow-lg group cursor-pointer relative overflow-hidden w-full sm:w-auto"
         >
-          Book Demo
-          <ArrowRight />
+          <a href="tel:+18336190239">
+            Call Now
+            <ArrowRight />
+          </a>
         </Button>
         <Button
           size="lg"
+          asChild
           variant="outline"
           className="bg-transparent text-white border-2 border-white/30 rounded-full px-8 py-4 text-lg font-medium transition-all duration-300 hover:bg-white/10 hover:border-white/50 hover:scale-105 hover:shadow-lg cursor-pointer backdrop-blur-sm w-full sm:w-auto"
         >
-          Enquire Now
+          <a href="tel:+18336190239">Contact Us</a>
         </Button>
       </div>
     </div>

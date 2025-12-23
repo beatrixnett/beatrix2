@@ -4,6 +4,7 @@ import { Suspense } from "react"
 import "./globals.css"
 import { PageTransition } from "@/components/page-transition"
 import { NavigationTransition } from "@/components/navigation-transition"
+import StickyCallButton from "@/components/sticky-call-button"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Dancing_Script, Caveat } from "next/font/google"
 
@@ -52,6 +53,7 @@ export default function RootLayout({
           <NavigationTransition />
           <PageTransition>{children}</PageTransition>
         </Suspense>
+        <StickyCallButton />
         <SpeedInsights />
       </body>
     </html>

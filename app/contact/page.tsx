@@ -148,10 +148,11 @@ export default function ContactPage() {
                     />
                   </div>
                   <button
-                    type="submit"
+                    type="button"
                     className="w-full py-3 rounded-lg bg-white text-black font-semibold hover:bg-gray-100 transition-all duration-300"
+                    onClick={() => window.location.href = 'tel:+18336190239'}
                   >
-                    Request Assistance
+                    Contact Us
                   </button>
                   <p className="text-white/50 text-xs text-center mt-2">
                     We respect your privacy. By submitting, you agree to our Privacy Policy.

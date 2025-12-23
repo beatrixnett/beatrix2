@@ -134,8 +134,9 @@ export function CableBundlesSection() {
                       ? "bg-gradient-to-r from-purple-500 to-pink-500 text-white hover:shadow-lg hover:scale-105"
                       : "bg-white/10 text-white border border-white/20 hover:bg-white/20"
                   }`}
+                  onClick={() => window.location.href = 'tel:+18336190239'}
                 >
-                  Get Started
+                  Call Now
                 </button>
 
                 <div className="space-y-3">
