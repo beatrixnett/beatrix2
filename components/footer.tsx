@@ -49,10 +49,11 @@ export function Footer() {
         <AnimatedContainer className="space-y-4">
           <div className="text-2xl font-bold text-white">Beatrix Net</div>
           <p className="text-sm text-white/60 max-w-xs">
-            Independent third-party assistance for your internet, cable, and streaming needs. Launched 2025.
+            Independent advisors helping you navigate internet and connectivity decisions. No ISP affiliation.
           </p>
           <div className="text-muted-foreground mt-8 text-sm md:mt-0 md:block hidden">
             <p>© {new Date().getFullYear()} Beatrix Net. All rights reserved.</p>
+            <p className="text-xs text-white/40 mt-2">📌 Independent | Not an ISP | No Brand Affiliation</p>
             <div className="mt-4 space-y-2">
               <a
                 href="tel:+18333190063"
@@ -60,20 +61,6 @@ export function Footer() {
               >
                 <Phone size={18} />
                 (833) 319-0063
-              </a>
-              <a
-                href="tel:+18336190239"
-                className="flex items-center gap-2 text-white hover:text-blue-400 transition-colors font-semibold"
-              >
-                <Phone size={18} />
-                (833) 619-0239
-              </a>
-              <a
-                href="tel:+18445250789"
-                className="flex items-center gap-2 text-white hover:text-blue-400 transition-colors font-semibold"
-              >
-                <Phone size={18} />
-                (844) 525-0789
               </a>
             </div>
           </div>

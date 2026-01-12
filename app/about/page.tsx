@@ -17,7 +17,7 @@ export default function AboutPage() {
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-6xl font-bold text-white mb-8">About Beatrix Net</h1>
               <p className="text-xl text-white/70 mb-12">
-                Your independent partner for navigating the complex world of internet, cable, and streaming services. Founded in 2025, we're here to make connectivity decisions simpler.
+                Your independent advisor for making informed connectivity decisions. We help you understand internet and broadband options without any ISP affiliation.
               </p>
             </div>
           </section>
@@ -27,45 +27,45 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold text-white mb-6">Who We Are</h2>
               <p className="text-white/70 text-lg leading-relaxed mb-4">
-                Beatrix Net is an independent third-party assistance platform launched in 2025. We help everyday people make sense of the overwhelming world of internet, cable, and streaming options. We don't sell services—we guide you to the right choices for your unique needs.
+                Beatrix Net is an independent advisory platform. We provide unbiased guidance on internet and broadband service options without any affiliation to providers.
               </p>
               <p className="text-white/70 text-lg leading-relaxed">
-                Think of us as your personal connectivity advisors. We cut through marketing jargon, compare options objectively, and help you understand what you're really getting. No sales pressure, no hidden agendas—just honest guidance from people who understand how confusing it all can be.
+                We help users understand connectivity options, navigate the service selection process, and make informed decisions. We don't sell services—we guide you to make the best choices for your needs.
               </p>
             </div>
 
             <div>
               <h2 className="text-3xl font-bold text-white mb-6">Our Mission</h2>
               <p className="text-white/70 text-lg leading-relaxed">
-                We exist to empower consumers with knowledge and support in a marketplace that's deliberately complicated. Our mission is to be the trusted voice that helps you understand your options, avoid common pitfalls, and get connected with confidence. We believe everyone deserves clear, unbiased guidance when choosing essential services for their home or business.
+                We exist to help users understand their internet and connectivity options through independent guidance. Our mission is to provide unbiased information that empowers better decision-making about connectivity services.
               </p>
             </div>
 
             <div>
-              <h2 className="text-3xl font-bold text-white mb-6">What Makes Us Different</h2>
+              <h2 className="text-3xl font-bold text-white mb-6">What We Stand For</h2>
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="p-6 rounded-xl bg-white/10 border border-white/20">
-                  <h3 className="text-xl font-semibold text-white mb-3">Truly Independent</h3>
+                  <h3 className="text-xl font-semibold text-white mb-3">Independent</h3>
                   <p className="text-white/70">
-                    We're not affiliated with any provider. This means we can give you honest, unbiased advice focused solely on what's best for you—not what earns us the biggest commission.
+                    No ISP affiliation. We're not endorsed by or affiliated with any service provider, ensuring our guidance is completely unbiased.
                   </p>
                 </div>
                 <div className="p-6 rounded-xl bg-white/10 border border-white/20">
-                  <h3 className="text-xl font-semibold text-white mb-3">Expert Guidance</h3>
+                  <h3 className="text-xl font-semibold text-white mb-3">Transparent</h3>
                   <p className="text-white/70">
-                    Our advisors understand the technical details, pricing structures, and fine print across multiple providers. We translate complexity into clarity.
+                    Clear information about what we do and don't do. We are advisors, not service providers.
                   </p>
                 </div>
                 <div className="p-6 rounded-xl bg-white/10 border border-white/20">
-                  <h3 className="text-xl font-semibold text-white mb-3">Transparent Pricing</h3>
+                  <h3 className="text-xl font-semibold text-white mb-3">Helpful</h3>
                   <p className="text-white/70">
-                    We charge a clear, upfront service fee for our assistance. No hidden costs, no ongoing subscriptions—you know exactly what you're paying for.
+                    We provide practical guidance on understanding connectivity options and making informed decisions.
                   </p>
                 </div>
                 <div className="p-6 rounded-xl bg-white/10 border border-white/20">
-                  <h3 className="text-xl font-semibold text-white mb-3">24/7 Support</h3>
+                  <h3 className="text-xl font-semibold text-white mb-3">Accessible</h3>
                   <p className="text-white/70">
-                    Questions don't keep business hours. Our support team is available around the clock at (833) 319-0063.
+                    Available for consultation to help with your connectivity questions and guidance needs.
                   </p>
                 </div>
               </div>
@@ -74,74 +74,59 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold text-white mb-6">Why We Started</h2>
               <p className="text-white/70 text-lg leading-relaxed mb-4">
-                Beatrix Net was born from frustration. Our founders experienced firsthand how difficult it is to make informed decisions about internet and cable services. Confusing plans, promotional pricing that expires, hidden fees, contradictory information from sales reps—it's exhausting.
-              </p>
-              <p className="text-white/70 text-lg leading-relaxed mb-4">
-                We saw a gap in the market: people needed an advocate. Someone who could help them understand their options without trying to upsell them. Someone independent who could speak plainly about what actually matters when choosing a provider.
+                Many people struggle to understand their connectivity options and feel overwhelmed by service provider information. We created Beatrix Net to provide independent, unbiased guidance to help people make informed decisions about internet and broadband services.
               </p>
               <p className="text-white/70 text-lg leading-relaxed">
-                So in 2025, we launched Beatrix Net to be that advocate. We're a small startup with a big mission: to bring transparency and simplicity to an industry that desperately needs both.
+                Our goal is to be a trusted, independent advisor—not a service provider or reseller.
               </p>
             </div>
 
             <div>
               <h2 className="text-3xl font-bold text-white mb-6">How We Help You</h2>
               <p className="text-white/70 text-lg leading-relaxed mb-4">
-                Our assistance services include:
+                Our advisory services include:
               </p>
               <ul className="space-y-2 text-white/70 text-lg">
                 <li className="flex items-start gap-3">
                   <span className="text-blue-400 mt-1">•</span>
-                  <span>Understanding which internet speeds you actually need for your usage</span>
+                  <span>Understanding your internet and connectivity needs</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-blue-400 mt-1">•</span>
-                  <span>Comparing providers available in your area objectively</span>
+                  <span>Learning about available connectivity options</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-blue-400 mt-1">•</span>
-                  <span>Decoding promotional pricing and contract terms</span>
+                  <span>Navigating service provider selection processes</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-blue-400 mt-1">•</span>
-                  <span>Guiding you through the sign-up and installation process</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-blue-400 mt-1">•</span>
-                  <span>Technical setup support and troubleshooting</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-blue-400 mt-1">•</span>
-                  <span>Ongoing support as your connectivity needs evolve</span>
+                  <span>Making informed connectivity decisions</span>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h2 className="text-3xl font-bold text-white mb-6">Our Commitment to You</h2>
+              <h2 className="text-3xl font-bold text-white mb-6">Our Commitment</h2>
               <p className="text-white/70 text-lg leading-relaxed mb-4">
-                We promise to always:
+                We commit to:
               </p>
               <ul className="space-y-2 text-white/70 text-lg">
                 <li className="flex items-start gap-3">
                   <span className="text-blue-400 mt-1">•</span>
-                  <span>Maintain complete independence from all service providers</span>
+                  <span>Maintaining complete independence from all service providers</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-blue-400 mt-1">•</span>
-                  <span>Provide honest guidance even if it means recommending the simplest option</span>
+                  <span>Providing unbiased, independent guidance</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-blue-400 mt-1">•</span>
-                  <span>Respect your privacy and never request provider passwords</span>
+                  <span>Being transparent about what we do and don't do</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-blue-400 mt-1">•</span>
-                  <span>Be transparent about our fees and what they cover</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-blue-400 mt-1">•</span>
-                  <span>Stand behind our assistance with a clear refund policy</span>
+                  <span>Respecting your privacy and information</span>
                 </li>
               </ul>
             </div>
@@ -150,28 +135,28 @@ export default function AboutPage() {
               <h2 className="text-3xl font-bold text-white mb-6">Important Clarifications</h2>
               <div className="p-6 rounded-lg bg-blue-500/10 border border-blue-400/30">
                 <p className="text-white/70 text-lg leading-relaxed mb-4">
-                  <strong className="text-white">Beatrix Net is an independent third-party assistance platform.</strong> We are not an Internet Service Provider (ISP), cable company, or streaming service. We do not sell internet, cable, or streaming plans.
+                  <strong className="text-white">Beatrix Net is an independent advisory platform.</strong> We are NOT an Internet Service Provider (ISP), cable company, or service provider. We do not sell internet or connectivity services.
                 </p>
                 <p className="text-white/70 text-lg leading-relaxed mb-4">
-                  We charge a separate service fee for our guidance and assistance. This fee is independent from any charges you incur from service providers. You will be billed directly by providers for their services.
+                  We are NOT affiliated with, endorsed by, or sponsored by any internet service provider. Any provider names mentioned on our site are used for informational purposes only.
                 </p>
                 <p className="text-white/70 text-lg leading-relaxed">
-                  We are not affiliated with, endorsed by, or sponsored by any internet, cable, or streaming service provider. Provider names referenced on our site (such as Xfinity™, Spectrum™, AT&T™, Verizon™, etc.) are used for informational purposes only. All trademarks belong to their respective owners.
+                  📌 <strong>Independent</strong> | <strong>Not an ISP</strong> | <strong>No Brand Affiliation</strong>
                 </p>
               </div>
             </div>
 
             <div>
-              <h2 className="text-3xl font-bold text-white mb-6">Ready to Get Started?</h2>
+              <h2 className="text-3xl font-bold text-white mb-6">Get Guidance Today</h2>
               <p className="text-white/70 text-lg leading-relaxed mb-6">
-                Whether you're setting up service for the first time, considering a switch, or just need help understanding your current plan, we're here to assist. Reach out today and experience the difference that independent, expert guidance makes.
+                If you have questions about internet and connectivity options, our independent advisors are here to help.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="tel:+18336190239"
+                  href="tel:+18333190063"
                   className="inline-flex items-center justify-center px-8 py-4 bg-white text-black rounded-lg font-semibold hover:bg-gray-100 transition-colors"
                 >
-                  Call (833) 619-0239
+                  Call (833) 319-0063
                 </a>
                 <a
                   href="/contact"

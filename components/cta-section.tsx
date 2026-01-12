@@ -35,13 +35,13 @@ export function CTASection() {
       <div className="relative max-w-4xl mx-auto">
         <div className="fade-in-element opacity-0 translate-y-8 transition-all duration-1000 ease-out text-center p-8 md:p-10 rounded-3xl border border-white/20 bg-[radial-gradient(35%_128px_at_50%_0%,theme(backgroundColor.white/15%),theme(backgroundColor.white/5%))]">
           <h3 className="text-2xl md:text-3xl lg:text-4xl font-light text-white mb-6 text-balance leading-tight">
-            Need help with{" "}
+            Need{" "}
             <span className="font-medium italic bg-gradient-to-r from-white to-slate-200 bg-clip-text text-transparent">
-              your connectivity decisions?
+              independent guidance?
             </span>
           </h3>
           <p className="text-lg text-white/70 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Get personalized guidance from our independent advisors. We're here to help you navigate your internet, cable, and streaming options with confidence.
+            Talk to a third-party internet advisor. Get independent service guidance without any ISP affiliation. We're here to help you make informed connectivity decisions.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
@@ -50,16 +50,20 @@ export function CTASection() {
               className="group bg-white hover:bg-gray-50 text-slate-900 font-semibold px-6 py-4 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg flex items-center gap-3"
             >
               <Phone className="w-5 h-5" />
-              Get Assistance: (833) 319-0063
+              Call for Guidance: (833) 319-0063
             </a>
             <a
               href="tel:+18333190063"
               className="group bg-white/20 hover:bg-white/30 text-white font-semibold px-6 py-4 rounded-xl transition-all duration-300 hover:scale-105 border border-white/30 flex items-center gap-3"
             >
               <Phone className="w-5 h-5" />
-              Call Support: (833) 319-0063
+              Independent Advisor
             </a>
           </div>
+
+          <p className="text-xs text-white/50 mt-6">
+            📌 Not an ISP. No brand affiliation. Independent guidance only.
+          </p>
         </div>
       </div>
     </section>

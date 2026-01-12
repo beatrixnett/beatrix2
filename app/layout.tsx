@@ -21,9 +21,9 @@ const caveat = Caveat({
 })
 
 export const metadata: Metadata = {
-  title: "Beatrix Net - High-Speed Cable Internet Service Provider",
+  title: "Beatrix Net - Independent Connectivity Advisor",
   description:
-    "Get blazing-fast cable internet with unlimited data. Reliable, affordable internet service for homes and businesses. Call (833) 319-0063 today!",
+    "Independent guidance for internet and connectivity decisions. No ISP affiliation. Get expert advice to navigate your connectivity options. Call (833) 319-0063.",
   generator: "v0.app",
 }
 

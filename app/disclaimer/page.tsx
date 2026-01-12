@@ -31,9 +31,9 @@ export default function DisclaimerPage() {
             </div>
 
             <div>
-              <h2 className="text-3xl font-bold text-white mb-4">Independent Third-Party Service</h2>
+              <h2 className="text-3xl font-bold text-white mb-4">Independent Third-Party Advisor</h2>
               <p className="text-white/70 text-lg leading-relaxed mb-4">
-                Beatrix Net is an independent third-party assistance platform founded in 2025. We provide guidance, support, and educational services related to internet, cable, and streaming services.
+                Beatrix Net is an independent third-party advisory platform. We provide unbiased guidance and information about internet and broadband service options.
               </p>
               <p className="text-white/70 text-lg leading-relaxed mb-4">
                 <strong>We are NOT:</strong>
@@ -41,7 +41,6 @@ export default function DisclaimerPage() {
               <ul className="list-disc list-inside text-white/70 space-y-2 ml-4">
                 <li>An Internet Service Provider (ISP)</li>
                 <li>A cable television company</li>
-                <li>A streaming service provider</li>
                 <li>An authorized representative or agent of any provider</li>
                 <li>Affiliated with, endorsed by, or sponsored by any provider</li>
               </ul>
@@ -50,7 +49,7 @@ export default function DisclaimerPage() {
             <div>
               <h2 className="text-3xl font-bold text-white mb-4">No Provider Affiliation or Endorsement</h2>
               <p className="text-white/70 text-lg leading-relaxed mb-4">
-                Beatrix Net maintains complete independence from all internet, cable, and streaming service providers. Any mention of provider names, including but not limited to Xfinity™, Spectrum™, AT&T™, Verizon™, Cox™, Comcast™, DirecTV™, DISH™, Netflix™, Hulu™, and others, is for informational and descriptive purposes only.
+                Beatrix Net maintains complete independence from all internet service providers. Any mention of provider names is for informational and descriptive purposes only.
               </p>
               <p className="text-white/70 text-lg leading-relaxed">
                 All trademarks, service marks, trade names, and logos referenced on our website are the property of their respective owners. We do not claim any ownership, partnership, authorization, or endorsement relationship with these companies.
@@ -58,37 +57,30 @@ export default function DisclaimerPage() {
             </div>
 
             <div>
-              <h2 className="text-3xl font-bold text-white mb-4">Nature of Our Services</h2>
+              <h2 className="text-3xl font-bold text-white mb-4">What We Do Provide</h2>
               <p className="text-white/70 text-lg leading-relaxed mb-4">
-                Beatrix Net provides assistance services that include:
+                Beatrix Net provides independent advisory services including:
               </p>
               <ul className="list-disc list-inside text-white/70 space-y-2 ml-4">
-                <li>Educational guidance on available internet, cable, and streaming options</li>
-                <li>Comparative information about different providers and plans</li>
-                <li>Technical setup support and troubleshooting assistance</li>
-                <li>Customer support for connectivity-related questions</li>
-                <li>Help navigating the service selection and activation process</li>
-              </ul>
-              <p className="text-white/70 text-lg leading-relaxed mt-4">
-                <strong>Our services do NOT include:</strong>
-              </p>
-              <ul className="list-disc list-inside text-white/70 space-y-2 ml-4">
-                <li>Selling or providing internet, cable, or streaming service plans</li>
-                <li>Operating or maintaining network infrastructure</li>
-                <li>Managing provider accounts on your behalf</li>
-                <li>Processing provider payments or billing</li>
-                <li>Guaranteeing service availability, speed, or quality from providers</li>
+                <li>Educational guidance on internet and broadband service options</li>
+                <li>Comparative information about different approaches to connectivity</li>
+                <li>Help navigating provider selection processes</li>
+                <li>Practical advice on connectivity solutions</li>
               </ul>
             </div>
 
             <div>
-              <h2 className="text-3xl font-bold text-white mb-4">Separate Fees and Billing</h2>
+              <h2 className="text-3xl font-bold text-white mb-4">What We Do NOT Do</h2>
               <p className="text-white/70 text-lg leading-relaxed mb-4">
-                Beatrix Net charges a separate service fee for our assistance and guidance services. This fee is completely independent from charges imposed by internet, cable, or streaming service providers.
+                <strong>Beatrix Net explicitly does NOT:</strong>
               </p>
-              <p className="text-white/70 text-lg leading-relaxed">
-                You will receive separate bills: one from Beatrix Net for our assistance services, and separate bills from any providers whose services you subscribe to. Beatrix Net has no control over or responsibility for provider pricing, billing, or payment terms.
-              </p>
+              <ul className="list-disc list-inside text-white/70 space-y-2 ml-4">
+                <li>Sell or provide actual ISP services or plans</li>
+                <li>Provide guaranteed technical fixes</li>
+                <li>Represent or endorse any specific provider</li>
+                <li>Operate network infrastructure</li>
+                <li>Process provider payments or billing</li>
+              </ul>
             </div>
 
             <div>

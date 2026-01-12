@@ -1,15 +1,14 @@
 import { GlassmorphismNav } from "@/components/glassmorphism-nav"
 import { HeroSection } from "@/components/hero-section"
-import { NetworkReliabilitySection } from "@/components/network-reliability-section"
 import Aurora from "@/components/Aurora"
 import { FeaturesSection } from "@/components/features-section"
-import { CoverageMapSection } from "@/components/coverage-map-section"
-import { InstallationSupportSection } from "@/components/installation-support-section"
-import { ServiceGallerySection } from "@/components/service-gallery-section"
 import { CTASection } from "@/components/cta-section"
 import { Footer } from "@/components/footer"
-import { InternetServicesSection } from "@/components/internet-services-section"
-import { CableBundlesSection } from "@/components/cable-bundles-section"
+import { WhatWeDoSection } from "@/components/what-we-do-section"
+import { ServicesSection } from "@/components/services-section"
+import { WhyChooseUsSection } from "@/components/why-choose-us-section"
+import { FAQSection } from "@/components/faq-section"
+import { TestimonialsSection } from "@/components/testimonials-section"
 
 export default function HomePage() {
   return (
@@ -21,13 +20,12 @@ export default function HomePage() {
         <div className="relative z-10">
           <GlassmorphismNav />
           <HeroSection />
-          <InternetServicesSection />
-          <CableBundlesSection />
-          <NetworkReliabilitySection />
+          <WhatWeDoSection />
+          <ServicesSection />
           <FeaturesSection />
-          <CoverageMapSection />
-          <InstallationSupportSection />
-          <ServiceGallerySection />
+          <WhyChooseUsSection />
+          <FAQSection />
+          <TestimonialsSection />
           <CTASection />
           <Footer />
         </div>

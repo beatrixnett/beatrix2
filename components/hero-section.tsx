@@ -51,7 +51,7 @@ export function HeroSection() {
 
         {/* Subheading */}
         <p className="text-base sm:text-xl md:text-2xl text-white text-balance max-w-sm sm:max-w-3xl mx-auto mb-8 sm:mb-12 leading-relaxed px-4 sm:px-0 animate-fade-in-subheading font-light">
-          Expert assistance for choosing and managing your internet, cable, and streaming services. We cut through the confusion so you can connect with confidence.
+          Independent guidance for navigating internet, broadband, and connectivity options. We help you understand your choices and make confident decisions.
         </p>
 
         {/* CTA Buttons */}
@@ -61,19 +61,26 @@ export function HeroSection() {
             asChild
             className="bg-white text-black rounded-full px-8 py-4 text-lg font-medium transition-all duration-300 hover:bg-gray-50 hover:scale-105 hover:shadow-lg group cursor-pointer relative overflow-hidden"
           >
-            <a href="tel:+18336190239">
-              Call Now
+            <a href="tel:+18333190063">
+              Talk to Advisor
               <ArrowRight />
             </a>
           </Button>
 
           <a
-            href="tel:+18336190239"
+            href="tel:+18333190063"
             className="group bg-white hover:bg-gray-50 text-slate-900 font-semibold px-6 py-4 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg flex items-center gap-3"
           >
             <Phone className="w-5 h-5" />
-            (833) 619-0239
+            (833) 319-0063
           </a>
+        </div>
+
+        {/* Disclaimer */}
+        <div className="mb-8 sm:mb-12 px-4">
+          <p className="text-xs text-white/50">
+            📌 Independent Advisor | Not an ISP | No Brand Affiliation
+          </p>
         </div>
 
         {/* Trust Indicators */}

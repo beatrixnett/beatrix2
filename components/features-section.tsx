@@ -210,49 +210,49 @@ const InstallationDemo = ({ isActive }: { isActive: boolean }) => {
 
 const features = [
   {
-    title: "Ultra-Fast Speeds",
+    title: "Independent Guidance",
     description:
-      "Experience lightning-fast internet speeds up to 1000 Mbps. Perfect for streaming 4K video, online gaming, and large file downloads without buffering.",
+      "Get unbiased advice not tied to any service provider. Our advisors focus on what's best for you, not commission.",
     demo: SpeedTestDemo,
     size: "large",
     icon: Zap,
   },
   {
-    title: "99.9% Uptime",
+    title: "Expert Knowledge",
     description:
-      "Reliable connection you can count on. Our redundant network infrastructure ensures your internet stays on, day and night.",
+      "Understand connectivity options, service terms, and what really matters. We help you decode provider information.",
     demo: NetworkStatusDemo,
     size: "medium",
     icon: Shield,
   },
   {
-    title: "Multiple Devices",
+    title: "Practical Support",
     description:
-      "Connect up to 10+ devices simultaneously without slowdowns. Stream, game, work, and browse all at the same time.",
+      "Navigate service selection, understand your options, and make informed decisions with our guidance.",
     demo: DeviceConnectionDemo,
     size: "medium",
     icon: Smartphone,
   },
   {
-    title: "24/7 Customer Support",
+    title: "Always Available",
     description:
-      "Our dedicated support team is always available to help. Call, chat, or email us anytime - we're here to assist.",
+      "Our advisors are ready to help. Get guidance when you need it - we're here to answer your questions.",
     demo: CustomerSupportDemo,
     size: "large",
     icon: Clock,
   },
   {
-    title: "Professional Installation",
+    title: "Transparent Process",
     description:
-      "Free professional installation and setup. Our technicians get you connected in just 4 easy steps, no hassle.",
+      "Clear information about what we do and don't do. We're advisors, not service providers.",
     demo: InstallationDemo,
     size: "medium",
     icon: Download,
   },
   {
-    title: "WiFi Coverage",
+    title: "Transparent Information",
     description:
-      "Complete home WiFi coverage with our advanced mesh network system. Strong signal in every room of your home.",
+      "Clear details about providers and options. We help you understand terms, pricing, and what matters.",
     demo: NetworkStatusDemo,
     size: "medium",
     icon: Wifi,
@@ -331,8 +331,7 @@ export function FeaturesSection() {
               <span className="bg-gradient-to-r from-slate-600 to-slate-400 bg-clip-text text-transparent">Net</span>
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto font-light leading-relaxed">
-              Reliable, fast internet with exceptional customer service. Connect with confidence and experience the
-              difference that quality service makes.
+              Independent guidance and support to help you navigate connectivity decisions with confidence.
             </p>
           </div>
 
