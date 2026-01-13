@@ -153,10 +153,10 @@ export default function AboutPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="tel:+18333190063"
+                  href="tel:+18336190239"
                   className="inline-flex items-center justify-center px-8 py-4 bg-white text-black rounded-lg font-semibold hover:bg-gray-100 transition-colors"
                 >
-                  Call (833) 319-0063
+                  Call (833) 619-0239
                 </a>
                 <a
                   href="/contact"
