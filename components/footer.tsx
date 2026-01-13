@@ -56,11 +56,11 @@ export function Footer() {
             <p className="text-xs text-white/40 mt-2">📌 Independent | Not an ISP | No Brand Affiliation</p>
             <div className="mt-4 space-y-2">
               <a
-                href="tel:+18333190063"
+                href="tel:+18336190239"
                 className="flex items-center gap-2 text-white hover:text-blue-400 transition-colors font-semibold"
               >
                 <Phone size={18} />
-                (833) 319-0063
+                (833) 619-0239
               </a>
             </div>
           </div>
@@ -97,11 +97,11 @@ export function Footer() {
         </div>
         <p className="text-muted-foreground text-sm">© {new Date().getFullYear()} Beatrix Net. All rights reserved.</p>
         <a
-          href="tel:+18333190063"
+          href="tel:+18336190239"
           className="flex items-center gap-2 justify-center text-white hover:text-blue-400 transition-colors font-semibold"
         >
           <Phone size={18} />
-          (833) 319-0063
+          (833) 619-0239
         </a>
         <a
           href="tel:+18336190239"
