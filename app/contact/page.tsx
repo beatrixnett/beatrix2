@@ -60,10 +60,10 @@ export default function ContactPage() {
                     <h3 className="text-xl font-semibold text-white">Phone</h3>
                   </div>
                   <a
-                    href="tel:+18333190063"
+                    href="tel:+18336190239"
                     className="text-white/70 hover:text-white transition-colors text-lg font-semibold"
                   >
-                    (833) 319-0063
+                    (833) 619-0239
                   </a>
                   <p className="text-white/50 text-sm mt-2">Available 24/7 for assistance</p>
                 </div>
@@ -74,10 +74,10 @@ export default function ContactPage() {
                     <h3 className="text-xl font-semibold text-white">Alternative Phone</h3>
                   </div>
                   <a
-                    href="tel:+18333190063"
+                    href="tel:+18336190239"
                     className="text-white/70 hover:text-white transition-colors text-lg font-semibold"
                   >
-                    (833) 319-0063
+                    (833) 619-0239
                   </a>
                   <p className="text-white/50 text-sm mt-2">Support line available 24/7</p>
                 </div>

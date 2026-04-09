@@ -61,18 +61,18 @@ export function HeroSection() {
             asChild
             className="bg-white text-black rounded-full px-8 py-4 text-lg font-medium transition-all duration-300 hover:bg-gray-50 hover:scale-105 hover:shadow-lg group cursor-pointer relative overflow-hidden"
           >
-            <a href="tel:+18333190063">
+            <a href="tel:+18336190239">
               Talk to Advisor
               <ArrowRight />
             </a>
           </Button>
 
           <a
-            href="tel:+18333190063"
+            href="tel:+18336190239"
             className="group bg-white hover:bg-gray-50 text-slate-900 font-semibold px-6 py-4 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg flex items-center gap-3"
           >
             <Phone className="w-5 h-5" />
-            (833) 319-0063
+            (833) 619-0239
           </a>
         </div>
 
